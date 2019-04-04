@@ -1,0 +1,12 @@
+{
+  "name": "codeceptjs-selenium",
+  "version": "1.0.0",
+  "description": "Dockerizing E2E testing",
+  "scripts": {
+    "test:e2e": "codeceptjs run --steps --verbose --config=./e2eTests/codecept.conf.js"
+  },
+  "devDependencies": {
+    "codeceptjs": "^1.2.0",
+    "webdriverio": "^4.12.0"
+  }
+}
